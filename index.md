@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# Welcome to Grisu.io
-
 Grisu.io is a tiny framework that will help you build your Java microservices more quickly and efficiently.
 
 The codebase is splitted into several independent modules in order to clearly state different purposes:
