@@ -1,5 +1,4 @@
 title: Grisu.io - the tiny java framework to build your microservices...
-email: lordkada@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The Grisu framework will help you accelerate the building of Java microservices
 baseurl: "" # the subpath of your site, e.g. /blog
