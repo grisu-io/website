@@ -17,7 +17,7 @@ The codebase is splitted into several independent modules in order to clearly st
 
 - [usvcs-rabbitmq](https://github.com/grisu-io/usvcs-rabbitmq) / RabbitMQ implementation of the _usvcs_ package 
 
-- [persistentpojo](https://github.com/grisu-io/persistentpojo) / This package allows to annotate classes 
+- [persistentpojo](https://github.com/grisu-io/persistentpojo) / This package defines (and provides tools for) pojos that must be persisted  
 
 - [storage]() / Still to release as opensource project / Cassandra + Elastic Search implementation of the _persistentpojo_ interfaces
 
