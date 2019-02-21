@@ -7,7 +7,7 @@ layout: home
 
 Grisu.io is a tiny framework that will help you build your Java microservices more quickly and efficiently.
 
-The codebase is splitted into several independent modules in order to clearly state different purposes:
+The codebase is organised in multiple modules in order to clearly serve different purposes:
 
 - [core library](https://github.com/grisu-io/core) / This is the main library of the whole framework and it is referenced by other packages from the _Grisu family_. It provides common basic functionalities, such as a [MapBuilder.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/utils/MapBuilder.java) or [MapUtils.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/utils/MapUtils.java), a collection of common operators on maps or [GrisuException.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/exceptions/GrisuException.java), a useful Exception class
 
