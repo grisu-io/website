@@ -9,7 +9,7 @@ Grisu.io is a tiny framework that will help you build your Java microservices mo
 
 The codebase is organised in multiple modules in order to clearly serve different purposes:
 
-- [core library](https://github.com/grisu-io/core) / This is the main library of the whole framework and it is referenced by other packages from the _Grisu family_. It provides common basic functionalities, such as a [MapBuilder.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/utils/MapBuilder.java), a fluent interface to cteate maps or [MapUtils.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/utils/MapUtils.java), a collection of common operators on maps or [GrisuException.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/exceptions/GrisuException.java), a useful Exception class
+- [core library](https://github.com/grisu-io/core) / This is the main library of the whole framework and it is referenced by other packages from the _Grisu family_. It provides common basic functionalities, such as a [MapBuilder.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/utils/MapBuilder.java), a fluent interface to create maps or [MapUtils.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/utils/MapUtils.java), a collection of common operators on maps or [GrisuException.java](https://github.com/grisu-io/core/blob/master/src/main/java/io/grisu/core/exceptions/GrisuException.java), a useful Exception class
 
 - [pojo](https://github.com/grisu-io/pojo) / This library helps you create different and specialised Java classes whose properties must be automatically copied to/from other classes (eg. representational classes <--> dto <--> beans) within the same JVM or even wire-transfered. In fact the _pojo_ library provides a very easy and out-of-the-box mechanism to translate a pojo class into a JSON serialized string and viceversa.
 
@@ -19,6 +19,6 @@ The codebase is organised in multiple modules in order to clearly serve differen
 
 - [persistentpojo](https://github.com/grisu-io/persistentpojo) / This package defines (and provides tools for) pojos that must be persisted  
 
-- [storage]() / Still to release as opensource project / Cassandra + Elastic Search implementation of the _persistentpojo_ interfaces
+- [storage]() / Still to be released as opensource project / Cassandra + Elastic Search implementation of the _persistentpojo_ interfaces
 
 - [ee-core](https://github.com/grisu-io/ee-core) / convenience package to collect _java-ee_ utils
